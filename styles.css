@@ -14,3 +14,11 @@ a.nav-link {
     font-weight: 600;
     color: black;
 }
+
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    min-height: 100%;
+}
