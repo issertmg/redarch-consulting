@@ -1,0 +1,16 @@
+img.icon {
+    max-height: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+span {
+    margin-bottom: 2px;
+}
+
+a.nav-link {
+    font-weight: 600;
+    color: black;
+}
