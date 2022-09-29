@@ -27,43 +27,67 @@
                             style="max-height: 80px"
                         />
                     </div>
-                    <div class="col-md d-none d-md-block py-2">
-                        <div class="d-flex gap-3">
-                            <img
-                                src="res/images/location-pin.png"
-                                class="img-fluid icon"
-                                alt="Site logo"
-                            />
-                            <span>
-                                247 6th Street New Westminster British Columbia
-                                V3L 3A5
-                            </span>
-                        </div>
-                        <div class="d-flex gap-3">
-                            <img
-                                src="res/images/clock.png"
-                                class="img-fluid icon"
-                                alt="Site logo"
-                            />
-                            <span>
-                                Mon to Fri 10:00AM-5:30PM | Sat 9:00AM-5:30PM
-                            </span>
-                        </div>
-                        <div class="d-flex gap-3">
-                            <img
-                                src="res/images/phone-call.png"
-                                class="img-fluid icon"
-                                alt="Site logo"
-                            />
-                            <span>+1 778 244 7912</span>
-                        </div>
-                        <div class="d-flex gap-3">
-                            <img
-                                src="res/images/email.png"
-                                class="img-fluid icon"
-                                alt="Site logo"
-                            />
-                            <span>connect@redarchconsulting.com</span>
+                    <div class="col-md d-none d-md-block py-2 pe-5">
+                        <div class="d-flex justify-content-end">
+                            <div
+                                class="d-flex flex-column"
+                                style="width: fit-content"
+                            >
+                                <div
+                                    class="d-flex gap-3"
+                                    style="width: fit-content"
+                                >
+                                    <img
+                                        src="res/images/location-pin.png"
+                                        class="img-fluid icon"
+                                        alt="Site logo"
+                                    />
+                                    <span>
+                                        247 6th Street New Westminster British
+                                        Columbia V3L 3A5
+                                    </span>
+                                </div>
+                                <div
+                                    class="d-flex gap-3"
+                                    style="width: fit-content"
+                                >
+                                    <img
+                                        src="res/images/clock.png"
+                                        class="img-fluid icon"
+                                        alt="Site logo"
+                                    />
+                                    <span>
+                                        Mon to Fri 10:00AM-5:30PM | Sat
+                                        9:00AM-5:30PM
+                                    </span>
+                                </div>
+                                <div
+                                    class="d-flex gap-3"
+                                    style="width: fit-content"
+                                >
+                                    <img
+                                        src="res/images/phone-call.png"
+                                        class="img-fluid icon"
+                                        alt="Site logo"
+                                    />
+                                    <span>+1 778 244 7912</span>
+                                </div>
+                                <div
+                                    class="d-flex gap-3"
+                                    style="width: fit-content"
+                                >
+                                    <img
+                                        src="res/images/email.png"
+                                        class="img-fluid icon"
+                                        alt="Site logo"
+                                    />
+                                    <a
+                                        class="hyperlink"
+                                        href="mailto:connect@redarchconsulting.com"
+                                        >connect@redarchconsulting.com</a
+                                    >
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -94,7 +118,7 @@
                                 href="index.html"
                                 >Home</a
                             >
-                            <a class="nav-link" href="study-permit.html"
+                            <a class="nav-link active" href="study-permit.html"
                                 >Study</a
                             >
                             <a class="nav-link" href="working-visa.html"
@@ -115,6 +139,7 @@
                 </div>
             </nav>
 
+            <!-- Content -->
             <div class="container px-5 my-4">
                 <div class="row flex-lg-row flex-column-reverse">
                     <div class="col-md">
@@ -143,10 +168,16 @@
                 <br />
 
                 <h2>Requirements needed for a Canada student visa:</h2>
+                <hr />
                 <ul>
                     <li>
-                        An Acceptance letter from a Designated Learning
-                        Institution (DLI) in Canada.
+                        An Acceptance letter from a
+                        <a
+                            class="hyperlink"
+                            href="http://www.cic.gc.ca/english/study/study-institutions-list.asp"
+                            >Designated Learning Institution (DLI)</a
+                        >
+                        in Canada.
                     </li>
                     <li>
                         You must prove that you have enough proof of funds to
@@ -180,8 +211,8 @@
         </div>
 
         <!-- Footer -->
-        <footer class="bg-warning bg-gradient mt-5 text-center">
-            <div class="row py-4">
+        <footer class="bg-warning bg-gradient text-center">
+            <div class="row py-4 gy-4">
                 <div
                     class="col-md d-flex flex-column justify-content-center px-5"
                 >
@@ -190,7 +221,11 @@
                         247 6th Street New Westminster British Columbia V3L 3A5
                     </span>
                     <span>+1 778 244 7912</span>
-                    <span>connect@redarchconsulting.com</span>
+                    <a
+                        class="hyperlink"
+                        href="mailto:connect@redarchconsulting.com"
+                        >connect@redarchconsulting.com</a
+                    >
 
                     <br />
 
@@ -216,6 +251,13 @@
                         >For latest news and updates follow our social media
                         channel</span
                     >
+                    <a href="https://www.facebook.com/">
+                        <img
+                            class="img-fluid align-self-center mt-2"
+                            src="res/images/facebook.png"
+                            style="max-width: fit-content"
+                        />
+                    </a>
                 </div>
             </div>
         </footer>

@@ -27,48 +27,71 @@
                             style="max-height: 80px"
                         />
                     </div>
-                    <div class="col-md d-none d-md-block py-2">
-                        <div class="d-flex gap-3">
-                            <img
-                                src="res/images/location-pin.png"
-                                class="img-fluid icon"
-                                alt="Site logo"
-                            />
-                            <span>
-                                247 6th Street New Westminster British Columbia
-                                V3L 3A5
-                            </span>
-                        </div>
-                        <div class="d-flex gap-3">
-                            <img
-                                src="res/images/clock.png"
-                                class="img-fluid icon"
-                                alt="Site logo"
-                            />
-                            <span>
-                                Mon to Fri 10:00AM-5:30PM | Sat 9:00AM-5:30PM
-                            </span>
-                        </div>
-                        <div class="d-flex gap-3">
-                            <img
-                                src="res/images/phone-call.png"
-                                class="img-fluid icon"
-                                alt="Site logo"
-                            />
-                            <span>+1 778 244 7912</span>
-                        </div>
-                        <div class="d-flex gap-3">
-                            <img
-                                src="res/images/email.png"
-                                class="img-fluid icon"
-                                alt="Site logo"
-                            />
-                            <span>connect@redarchconsulting.com</span>
+                    <div class="col-md d-none d-md-block py-2 pe-5">
+                        <div class="d-flex justify-content-end">
+                            <div
+                                class="d-flex flex-column"
+                                style="width: fit-content"
+                            >
+                                <div
+                                    class="d-flex gap-3"
+                                    style="width: fit-content"
+                                >
+                                    <img
+                                        src="res/images/location-pin.png"
+                                        class="img-fluid icon"
+                                        alt="Site logo"
+                                    />
+                                    <span>
+                                        247 6th Street New Westminster British
+                                        Columbia V3L 3A5
+                                    </span>
+                                </div>
+                                <div
+                                    class="d-flex gap-3"
+                                    style="width: fit-content"
+                                >
+                                    <img
+                                        src="res/images/clock.png"
+                                        class="img-fluid icon"
+                                        alt="Site logo"
+                                    />
+                                    <span>
+                                        Mon to Fri 10:00AM-5:30PM | Sat
+                                        9:00AM-5:30PM
+                                    </span>
+                                </div>
+                                <div
+                                    class="d-flex gap-3"
+                                    style="width: fit-content"
+                                >
+                                    <img
+                                        src="res/images/phone-call.png"
+                                        class="img-fluid icon"
+                                        alt="Site logo"
+                                    />
+                                    <span>+1 778 244 7912</span>
+                                </div>
+                                <div
+                                    class="d-flex gap-3"
+                                    style="width: fit-content"
+                                >
+                                    <img
+                                        src="res/images/email.png"
+                                        class="img-fluid icon"
+                                        alt="Site logo"
+                                    />
+                                    <a
+                                        class="hyperlink"
+                                        href="mailto:connect@redarchconsulting.com"
+                                        >connect@redarchconsulting.com</a
+                                    >
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <!-- Navigation bar -->
             <nav class="navbar navbar-expand-md bg-warning bg-gradient">
                 <div class="container-fluid">
@@ -106,7 +129,7 @@
                             <a class="nav-link" href="sponsorships.html"
                                 >Sponsorships</a
                             >
-                            <a class="nav-link" href="lmia.html">LMIA</a>
+                            <a class="nav-link active" href="lmia.html">LMIA</a>
                             <a class="nav-link" href="book-appointment.html"
                                 >Book Appointment</a
                             >
@@ -115,19 +138,24 @@
                 </div>
             </nav>
 
+            <!-- Content -->
             <div class="container px-5 my-4">
                 <p class="fs-5">
                     Employers must apply for a Labour Market Impact Assessment
-                    (LMIA) before hiring foreign workers (see exemptions
-                    including NAFTA and GATS). To obtain a positive LMIA, a
-                    Canadian employer must prove that no Canadian or permanent
-                    resident worker is available to complete the job in
-                    question, and a foreign worker is therefore required.
+                    (LMIA) before hiring foreign workers (<a
+                        class="hyperlink"
+                        href="https://www.matkowsky.ca/lmia-exempt-work-permit"
+                        >see exemptions including NAFTA and GATS</a
+                    >). To obtain a positive LMIA, a Canadian employer must
+                    prove that no Canadian or permanent resident worker is
+                    available to complete the job in question, and a foreign
+                    worker is therefore required.
                 </p>
 
                 <br />
 
                 <h3>LMIA applications should show the following:</h3>
+                <hr />
                 <ul>
                     <li>
                         Efforts made to recruit available Canadian
@@ -163,8 +191,8 @@
         </div>
 
         <!-- Footer -->
-        <footer class="bg-warning bg-gradient mt-5 text-center">
-            <div class="row py-4">
+        <footer class="bg-warning bg-gradient text-center">
+            <div class="row py-4 gy-4">
                 <div
                     class="col-md d-flex flex-column justify-content-center px-5"
                 >
@@ -173,7 +201,11 @@
                         247 6th Street New Westminster British Columbia V3L 3A5
                     </span>
                     <span>+1 778 244 7912</span>
-                    <span>connect@redarchconsulting.com</span>
+                    <a
+                        class="hyperlink"
+                        href="mailto:connect@redarchconsulting.com"
+                        >connect@redarchconsulting.com</a
+                    >
 
                     <br />
 
@@ -199,6 +231,13 @@
                         >For latest news and updates follow our social media
                         channel</span
                     >
+                    <a href="https://www.facebook.com/">
+                        <img
+                            class="img-fluid align-self-center mt-2"
+                            src="res/images/facebook.png"
+                            style="max-width: fit-content"
+                        />
+                    </a>
                 </div>
             </div>
         </footer>

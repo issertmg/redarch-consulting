@@ -22,3 +22,18 @@ html {
 body {
     min-height: 100%;
 }
+
+a.hyperlink {
+    color: #800000 !important;
+}
+
+a.nav-link.active {
+    color: #800000 !important;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 8px;
+}
